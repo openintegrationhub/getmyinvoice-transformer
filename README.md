@@ -1,1 +1,1 @@
-# getmyinvoice-adapter
+# getmyinvoice-transformer
