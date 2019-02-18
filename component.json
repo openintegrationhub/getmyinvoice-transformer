@@ -1,0 +1,22 @@
+{
+    "title": "GetMyInvoices Transformation",
+    "description": "Generic Data Transformation Component",
+    "actions": {
+      "transformDocumentFromOih": {
+        "title": "Transform a document from OIH",
+        "description": "Transform the incoming data from OIH",
+        "main": "./lib/actions/transformDocumentFromOih.js",
+        "metadata": {
+          "out": {}
+        }
+      },
+      "transformDocumentToOih": {
+        "title": "Transform a Document to OIH",
+        "description": "Transform the incoming data to OIH",
+        "main": "./lib/actions/transformDocumentToOih.js",
+        "metadata": {
+          "out": {}
+        }
+      }
+    }
+}
