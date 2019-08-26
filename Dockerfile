@@ -1,7 +1,7 @@
 FROM node:10-alpine
-LABEL NAME="GetMyInvoice-adapter"
+LABEL NAME="GetMyInvoice-Transformer"
 LABEL MAINTAINER Philipp Hoegner "philipp.hoegner@cloudecosystem.org"
-LABEL SUMMARY="This image is used to start the GetMyInvoice Adapter for OIH"
+LABEL SUMMARY="This image is used to start the GetMyInvoice Transformer for OIH"
 
 RUN apk --no-cache add \
     python \
